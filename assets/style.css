@@ -5,11 +5,45 @@
 }
 .card-container{
 width: 35vw;
-height: 60vw;
+height: 80vw;
 border: 6px solid black;
 }
 
 .header{
+  height: 40%;
+  width: 100%;
+  background-image: url(./images/pic.jpg);
+  background-size: cover;
+}
+
+.card{
+  display: flex;
+  font-size: 16px;
   height: 50%;
-  
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -15%;
+}
+
+.links{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.links p{
+  font-weight: bold;
+}
+
+.links span{
+  color: gray;
 }
