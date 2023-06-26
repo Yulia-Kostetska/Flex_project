@@ -6,5 +6,10 @@
 .card-container{
 width: 35vw;
 height: 60vw;
-border: 1px solid black;
+border: 6px solid black;
+}
+
+.header{
+  height: 50%;
+  
 }
